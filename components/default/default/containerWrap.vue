@@ -1,11 +1,11 @@
 <template>
-  <div class="container">
+  <div class="containerWrap">
     <slot />
   </div>
 </template>
 
 <style lang="scss" scoped>
-.container {
+.containerWrap {
   margin-top: 5rem;
   width: 750px;
   background-color: #F6F7F9;

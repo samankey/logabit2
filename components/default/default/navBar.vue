@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="nav Headline">
-      <div>
+      <div class="title">
         logabit
       </div>
-      <div>
+      <div class="title">
         기록의 습관
       </div>
     </div>
@@ -36,7 +36,7 @@ export default {
   width: 100%;
   border-bottom: 4px solid #001129;
 
-  div {
+  .title {
     padding: 0.25rem 1.5rem;
     
     &:first-child {

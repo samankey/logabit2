@@ -1,23 +1,23 @@
 <template>
   <div class="main">
-    <Container class="container ft_Black_100">
-      <Nav />
+    <ContainerWrap class="container ft_Black_100">
+      <NavBar />
       <Nuxt class="layout" />
       <Toast />
-    </Container>
+    </ContainerWrap>
     <div class="footer Caption ft_Black_20">developed by samankeyc, undefinedp</div>
   </div>
 </template>
 
 <script>
-import Container from '@/components/default/default/container';
-import Nav from '@/components/default/default/nav';
+import ContainerWrap from '@/components/default/default/containerWrap';
+import NavBar from '@/components/default/default/navBar';
 import Toast from '@/components/default/default/toast';
 
 export default {
   components: {
-    Container,
-    Nav,
+    ContainerWrap,
+    NavBar,
     Toast
   }
 };
